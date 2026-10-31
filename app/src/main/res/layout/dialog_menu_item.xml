@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/name_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Dish name"
+        android:inputType="textCapWords" />
+
+    <EditText
+        android:id="@+id/category_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Category (e.g. Main Course)"
+        android:inputType="textCapWords" />
+
+    <EditText
+        android:id="@+id/price_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Price in ₹ (e.g. 240)"
+        android:inputType="numberDecimal" />
+
+    <CheckBox
+        android:id="@+id/veg_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:checked="true"
+        android:text="Vegetarian" />
+
+</LinearLayout>

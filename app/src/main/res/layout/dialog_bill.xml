@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/bill_preview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/discount_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/discount_percent_radio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Discount %" />
+
+        <RadioButton
+            android:id="@+id/discount_flat_radio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Discount ₹ (flat)" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/discount_value_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Discount value (0 = none)"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Payment mode" />
+
+    <Spinner
+        android:id="@+id/payment_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

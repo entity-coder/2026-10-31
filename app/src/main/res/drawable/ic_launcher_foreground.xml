@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Simple fork-and-spoon mark drawn as vector paths: a circle plate with
+     a fork on the left and a spoon on the right. Adaptive-icon foreground
+     (vector only — no binary PNGs, same posture as the earlier ports). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,54m-24,0a24,24 0,1 1,48 0a24,24 0,1 1,-48 0" />
+    <path
+        android:fillColor="#6200EE"
+        android:pathData="M54,54m-14,0a14,14 0,1 1,28 0a14,14 0,1 1,-28 0" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,30h3v18h2V30h3v18h2V30h3v24c0,4 -3,7 -6,7s-6,-3 -6,-7zM72,30c-4,0 -7,4 -7,9v6c0,4 3,7 7,7s7,-3 7,-7v-6c0,-5 -3,-9 -7,-9zM75,54h-6v22h6z" />
+</vector>

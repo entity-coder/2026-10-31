@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/order_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="19sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/order_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textSize="16sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/lines_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/add_item_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add dish" />
+
+    <Button
+        android:id="@+id/kot_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send KOT to kitchen" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/merge_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Merge tables" />
+
+        <Button
+            android:id="@+id/split_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Split order" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bill_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bill &amp; close table" />
+
+</LinearLayout>

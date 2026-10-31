@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">RestroBill</string>
+    <string name="order_title">Running order</string>
+    <string name="settings_title">Settings</string>
+    <string name="nav_tables">Tables</string>
+    <string name="nav_menu">Menu</string>
+    <string name="nav_summary">Summary</string>
+    <string name="action_settings">Settings</string>
+</resources>
